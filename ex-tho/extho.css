@@ -1,0 +1,77 @@
+.body {
+	background-color: brown;
+	padding: 0%;
+	margin: 0%;
+}
+
+p {
+	font-family: sans-serif, monospace;
+	font-weight: 500;
+	margin: 0px;
+
+}
+
+h1 {
+	display: block;
+}
+
+.appli-contain {
+	display: flex;
+	margin: 0 auto;
+	width: 50%;
+	align-items: center;
+	flex-direction: column;
+}
+
+.form-foto {
+	width: fit-content;
+	margin: 30px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	border: 2px solid black;
+}
+
+.form-foto__enter {
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.enter-values__field {
+	height: 25px;
+	border-radius: 10px;
+	margin: 10px 0px;
+}
+
+.form-foto__submit {
+	padding: 10px;
+	color: brown;
+	background-color: black;
+	font-family: sans-serif, monospace;
+	font-weight: 800;
+	border: red solid 2px;
+}
+
+.form-foto__submit:hover {
+	color: white;
+	transform: scale(1.2, 1.2);
+	transition: 1,5s;
+}
+
+.appli-contain__foto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.appli-contain__foto > p{
+	font-family: sans-serif, monospace;
+	font-weight: 900;
+	color: brown;
+}
+

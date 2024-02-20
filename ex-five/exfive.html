@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./exfive.css">
+	<title>exfive</title>
+</head>
+<body class="appli">
+	<h1 class="appli-heading">Application for cards</h1>
+
+	<container class="appli-contain">
+		
+		<div class="appli-contain__form form">
+			<label class="form__enter entervaluenumberstr">
+				<h2>Page number</h2>
+				<p class="entervaluenumberstr__descrip">Enter value is from 1 to 10 for number page:</p>
+				<input class="entervaluenumberstr__field" type="text">
+			</label><br>
+			<label class="form__enter entervaluelimit">
+				<h2>Limit</h2>
+				<p class="entervaluelimit__descrip">Enter value is from 1 to 10 for limit:</p>
+				<input class="entervaluelimit__field" type="text">
+			</label><br>
+			<label class="form__enter output">
+				<h2>Request</h2>
+				<button class="form__submit" type="submit">Send it value for output</button>
+			</label>
+		</div>
+
+		<p class="appli-contain__indicat">Here will be cards:</p>
+
+	</container>
+
+	<div class="cards-foto appli-contain__cards"></div>
+	
+	<script src="./exfive.js" async></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+.body {
+	background-color: brown;
+	padding: 0%;
+	margin: 0%;
+}
+
+p {
+	font-family: sans-serif, monospace;
+	font-weight: 500;
+	margin: 0px;
+
+}
+
+h1 {
+	display: block;
+}
+
+.appli-contain {
+	display: flex;
+	margin: 0 auto;
+	width: 50%;
+	align-items: center;
+	flex-direction: column;
+}
+
+.form-foto {
+	width: fit-content;
+	margin: 30px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	border: 2px solid black;
+}
+
+.form-foto__enter {
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.enter-value__field {
+	height: 20px;
+	border-radius: 10px;
+
+}
+
+.form-foto__submit {
+	padding: 10px;
+	color: brown;
+	background-color: black;
+	font-family: sans-serif, monospace;
+	font-weight: 800;
+	border: red solid 2px;
+}
+
+.form-foto__submit:active {
+	background-color: #3b2d2d;
+}
+
+.cards-foto {
+	display: flex;
+	gap: 30px;
+	margin: 20px 50px;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.foto-card {
+	width: fit-content;
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	gap: 10px;
+}
+
+.foto-card__img {
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+	position: relative;
+}
+
+.foto-card__descrip {
+	padding: 0 15px;
+}
